@@ -69,3 +69,13 @@ Body {
 	height:auto; 
 	width: 20%;
 }
+
+/*Copyright*/
+.copyright{
+	margin-top: 25%;
+	text-align: center;
+}
+
+.copyrightstyling {
+	color: white;
+}
