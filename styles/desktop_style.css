@@ -48,6 +48,7 @@ Body {
 	font-weight: normal;
 }
 
+/*Den gule prik*/
 .placering-gul {
 	text-align: center;
 	margin-top: 2%;
@@ -59,4 +60,12 @@ Body {
 	background-color: #FFE910;
 	border-radius: 50%;
 	display: inline-block;
+}
+/*Signatur*/
+.placering-navn {
+	text-align: center;
+}
+.navn {
+	height:auto; 
+	width: 20%;
 }
