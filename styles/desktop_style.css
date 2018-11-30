@@ -74,10 +74,8 @@ Body {
 .projektbillede img {
 	width: 100%;
 	height: auto;
-	display: inline-block;
-	align-content: center;
-}
 
+}
 .projektbillede {
 	padding: 5%;
 }
@@ -96,6 +94,30 @@ Body {
 	padding: 3%;
 }
 
+/*omkring*/
+.omkringbillede img {
+	width: 100%;
+	height: auto;
+
+}
+.omkringbillede {
+	padding: 5%;
+}
+
+.omkringkasse {
+	border: 7px dashed white;
+	width: 75%;
+	margin-top: 5%;
+}
+
+.omkringoverskrift {
+	margin-top: 10%;
+}
+
+.omkringoverskrift .omkringbrodtekst {
+	padding: 3%;
+}
+
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
@@ -108,13 +130,23 @@ Body {
 
 /*Styling af medium*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px){
+	/*(max-width:864px)*/
+	
 	/*navigation*/
 	.navigation a {
 	font-size: 1.25em;
 }
 	/*projekter*/
-	/*.projektbillede img {
-		width: 30%;}*/
+	.projektkasse {
+		display: inline-block;
+		float: left;
+		width: 100%;
+	}
+
+
+.projektoverskrift .projektbrodtekst {
+	padding: 3%;
+}
 	
 	/*copyright*/
 	.copyright {
