@@ -177,4 +177,16 @@ Body {
 		float: left;
 		width: 100%;
 	}
+	
+	.projektbillede img {
+	width: 75%;
+	height: auto;
+	margin-left: 10%;
+	margin-top: 10%;
+	}
+	.projektoverskrift {
+	margin-top: 5%;
+	font-size: 1.75em;
+	text-align: center;
+	}
 }
