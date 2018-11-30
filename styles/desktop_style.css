@@ -142,11 +142,13 @@ Body {
 		float: left;
 		width: 100%;
 	}
-
-
-.projektoverskrift .projektbrodtekst {
-	padding: 3%;
-}
+	
+	/*omkring*/
+	.omkringkasse {
+		display: inline-block;
+		float: left;
+		width: 100%;
+	}
 	
 	/*copyright*/
 	.copyright {
@@ -170,24 +172,20 @@ Body {
 	.placering-overskrift{
 	border-spacing: 8px; 
 	}
-	
 	/*Den gule prik*/
 	.gul {
 	height: 30px; 
 	width: 30px; 
 	}
-	
 	.placering-gul {
 	margin-top: 1%;
 	}
-	
 	/*projeketer*/
 	.projektkasse {
-		display: inline-block;
-		float: left;
-		width: 100%;
+	display: inline-block;
+	float: left;
+	width: 100%;
 	}
-	
 	.projektbillede img {
 	width: 75%;
 	height: auto;
@@ -199,4 +197,25 @@ Body {
 	font-size: 1.55em;
 	text-align: center;
 	}
+	/*omkring*/
+	.omkringkasse {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	}
+	.omkringbillede img {
+	width: 75%;
+	height: auto;
+	margin: 10% 0 10% 10%;
+	}
+	.omkringoverskrift {
+	margin-top: 5%;
+	font-size: 1.55em;
+	text-align: center;
+	}
+	.omkringbrodtekst {
+	text-align: left;
+	max-width: 80%;
+	}
+
 }
