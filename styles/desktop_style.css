@@ -112,12 +112,15 @@ Body {
 	.navigation a {
 	font-size: 1.25em;
 }
-
+	/*projekter*/
+	/*.projektbillede img {
+		width: 30%;}*/
 	
 	/*copyright*/
 	.copyright {
 		margin-top: 55%;
 	}
+	
 }
 /*Styling af small*/
 @media handheld, only screen and (max-width: 414px) and (min-width: 100px) {
