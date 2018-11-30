@@ -82,6 +82,12 @@ Body {
 
 /*Styling af medium*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px){
+	/*navigation*/
+	.navigation a {
+	font-size: 1.25em;
+}
+
+	
 	/*copyright*/
 	.copyright {
 		margin-top: 55%;
@@ -89,23 +95,18 @@ Body {
 }
 /*Styling af small*/
 @media handheld, only screen and (max-width: 414px) and (min-width: 100px) {
-	/*menu*/
+	/*navigation*/
 	.navigation a {
-	font-size: 0.75em;
+	font-size: 1em;
 	}
 	/*overskrift*/
-.overskrift {
-	border: 1px solid #666;
-	background-color: white; 
+	.overskrift { 
 	height: 20px; 
 	width: 20px; 
-	text-align: center; 
 	box-shadow: 2.5px 2.5px 2.5px #666;
-	font-family: "helvetica" "arial" "sans-serif";
-	font-size: 0.5em;
-	font-weight: normal;
+	font-size: 0.75em;
 	}
 	.placering-overskrift{
-	border-spacing: 5px; 
+	border-spacing: 8px; 
 	}
 }
