@@ -162,13 +162,23 @@ Body {
 	}
 	/*overskrift*/
 	.overskrift { 
-	height: 20px; 
-	width: 20px; 
+	height: 25px; 
+	width: 25px; 
 	box-shadow: 2.5px 2.5px 2.5px #666;
-	font-size: 0.75em;
+	font-size: 1.25em;
 	}
 	.placering-overskrift{
 	border-spacing: 8px; 
+	}
+	
+	/*Den gule prik*/
+	.gul {
+	height: 30px; 
+	width: 30px; 
+	}
+	
+	.placering-gul {
+	margin-top: 1%;
 	}
 	
 	/*projeketer*/
@@ -186,7 +196,7 @@ Body {
 	}
 	.projektoverskrift {
 	margin-top: 5%;
-	font-size: 1.75em;
+	font-size: 1.55em;
 	text-align: center;
 	}
 }
