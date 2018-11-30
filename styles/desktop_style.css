@@ -79,21 +79,23 @@ Body {
 }
 
 .projektbillede {
-	border: 1px solid red;
-	padding-right: 5%;
+	padding: 5%;
 }
 
 .projektkasse {
-	border: 7px dashed orange;
-	width: 80%;
-	align:
+	border: 7px dashed white;
+	width: 75%;
+	margin-top: 5%;
 }
-/*.projektkasse {
-	border: 1px solid blue;
-	width: 80%;
-	align-content: center;
-	display: inline-block;
-}*/
+
+.projektoverskrift {
+	margin-top: 10%;
+}
+
+.projektoverskrift .projektbrodtekst {
+	padding: 3%;
+}
+
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
