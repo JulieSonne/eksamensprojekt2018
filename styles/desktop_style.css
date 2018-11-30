@@ -70,6 +70,30 @@ Body {
 	width: 20%;
 }
 
+/*projekter*/
+.projektbillede img {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	align-content: center;
+}
+
+.projektbillede {
+	border: 1px solid red;
+	padding-right: 5%;
+}
+
+.projektkasse {
+	border: 7px dashed orange;
+	width: 80%;
+	align:
+}
+/*.projektkasse {
+	border: 1px solid blue;
+	width: 80%;
+	align-content: center;
+	display: inline-block;
+}*/
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
