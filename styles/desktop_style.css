@@ -170,4 +170,11 @@ Body {
 	.placering-overskrift{
 	border-spacing: 8px; 
 	}
+	
+	/*projeketer*/
+	.projektkasse {
+		display: inline-block;
+		float: left;
+		width: 100%;
+	}
 }
