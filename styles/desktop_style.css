@@ -118,6 +118,38 @@ Body {
 	padding: 3%;
 }
 
+/*blomster*/
+/*.blomster img{
+	width: 20%;
+	height: auto;
+}*/
+
+/*kontakt*/
+.kontaktform {
+	border: 5px dashed white;
+	width: 50%;
+	margin-top: 3%;
+}
+input {
+	padding: 2%; 
+	margin: 2%;
+	width: 92%;
+	border: none;
+}
+
+textarea {
+	padding: 2%; 
+	margin: 2%;
+	width: 92%;
+	border: none;
+}
+
+#sendknap {
+	width: 35%;
+	padding: 5%;
+}
+
+
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
@@ -211,7 +243,6 @@ Body {
 	.omkringoverskrift {
 	margin-top: 5%;
 	font-size: 1.55em;
-	text-align: center;
 	}
 	.omkringbrodtekst {
 	text-align: left;
