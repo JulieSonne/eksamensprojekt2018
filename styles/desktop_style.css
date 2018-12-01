@@ -149,7 +149,7 @@ textarea {
 }
 
 #send {
-	width: 35%;
+	width: 40%;
 	padding: 5%;
 }
 .sendknap {
@@ -165,6 +165,7 @@ textarea {
 .kontaktskub {
 	margin-top: 8%;
 }
+
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
