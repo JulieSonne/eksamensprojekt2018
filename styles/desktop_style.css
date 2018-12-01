@@ -129,27 +129,42 @@ Body {
 	border: 5px dashed white;
 	width: 50%;
 	margin-top: 3%;
+	text-align: center;
 }
 input {
 	padding: 2%; 
 	margin: 2%;
-	width: 92%;
+	width: 90%;
 	border: none;
+	font-size: 1em;
 }
 
 textarea {
-	padding: 2%; 
+	padding: 2%;
+	padding-bottom: 15%;
 	margin: 2%;
-	width: 92%;
+	width: 90%;
 	border: none;
+	font-size: 1em;
 }
 
-#sendknap {
+#send {
 	width: 35%;
 	padding: 5%;
 }
+.sendknap {
+	font-size: 1em;
+	padding: 7% 5%;
+	margin-bottom: 8%;
+}
 
-
+.kontaktkasse {
+	display: inline-block;
+	width: 90%;
+}
+.kontaktskub {
+	margin-top: 8%;
+}
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
