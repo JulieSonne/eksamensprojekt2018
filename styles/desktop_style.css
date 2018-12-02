@@ -93,6 +93,9 @@ Body {
 .projektoverskrift .projektbrodtekst {
 	padding: 3%;
 }
+.projektbrodtekst{
+		line-height: 2;
+}
 
 /*omkring*/
 .omkringbillede img {
