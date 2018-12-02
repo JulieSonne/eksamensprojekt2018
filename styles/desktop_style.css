@@ -166,6 +166,41 @@ textarea {
 	margin-top: 8%;
 }
 
+/*Portfolio + flow*/
+.flowform {
+	border: 5px dashed white;
+	width: 70%;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.flowkasse {
+	display: inline-block;
+	width: 90%;
+}
+
+.flowbillede img {
+	width: 80%;
+	height: auto;
+	margin: 15% 0;
+}
+
+/*.flowbillede img{
+	width: 70%;
+	height: auto;
+	align-content: center;
+}
+
+.flowkasse {
+	border: 7px dashed white;
+	width: 60%;
+	display: inline-block;
+}
+
+.flowplacering img{
+	border: 1px soid red;
+}
+*/
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
