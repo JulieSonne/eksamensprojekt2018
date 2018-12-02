@@ -192,6 +192,22 @@ textarea {
 .flowtekst p {
 	width: 90%;
 }
+.flowgulplacering {
+	text-align: left;
+	display: flex; 
+}
+
+.flowgulplacering h2 {
+	margin-top: 7%;
+}
+.flowgul {
+	height: 40px; 
+	width: 40px; 
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 5% 2.5% 5% 5%;
+}
 
 /*.flowblomster img {
 	width: 35%;
@@ -229,6 +245,19 @@ textarea {
 		display: inline-block;
 		float: left;
 		width: 100%;
+	}
+	
+	/*flow*/
+	h2 {
+	font-size: 1.25em;
+	}
+	.flowgul {
+	height: 20px; 
+	width: 20px; 
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 5% 2.5% 5% 5%;
 	}
 	
 	/*copyright*/
@@ -296,6 +325,19 @@ textarea {
 	.omkringbrodtekst {
 	text-align: left;
 	max-width: 80%;
+	}
+	
+	/*flow*/
+	h2 {
+	font-size: 1em;
+	}
+	.flowgul {
+	height: 20px; 
+	width: 20px; 
+	background-color: #FFE910;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 5% 2.5% 5% 5%;
 	}
 
 }
