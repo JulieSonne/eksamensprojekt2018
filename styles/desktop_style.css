@@ -186,24 +186,19 @@ textarea {
 }
 .flowtekst {
 	text-align: left;
+	margin: 5% 0;
 }
 
-/*.flowbillede img{
-	width: 70%;
+.flowtekst p {
+	width: 90%;
+}
+
+/*.flowblomster img {
+	width: 35%;
 	height: auto;
-	align-content: center;
-}
+	margin: 5%;
+}*/
 
-.flowkasse {
-	border: 7px dashed white;
-	width: 60%;
-	display: inline-block;
-}
-
-.flowplacering img{
-	border: 1px soid red;
-}
-*/
 /*Copyright*/
 .copyright{
 	margin-top: 25%;
