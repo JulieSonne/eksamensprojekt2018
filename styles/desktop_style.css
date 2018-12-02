@@ -184,6 +184,9 @@ textarea {
 	height: auto;
 	margin: 15% 0;
 }
+.flowtekst {
+	text-align: left;
+}
 
 /*.flowbillede img{
 	width: 70%;
