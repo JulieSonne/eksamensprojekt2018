@@ -190,6 +190,7 @@ textarea {
 .flowtekst {
 	text-align: left;
 	margin: 5% 0;
+	margin-bottom: 5%;
 }
 
 .flowtekst p {
@@ -216,11 +217,37 @@ textarea {
 	margin-top: 7%;
 }
 
-/*.flowblomster img {
-	width: 35%;
+.flowblomster img {
+	width: 50%;
 	height: auto;
 	margin: 5%;
-}*/
+}
+
+/*Den røde blomst alene*/
+.flowrodblomstplacering {
+	align-content: left;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.flowrodblomstplacering img{
+	width:75%;
+	height: auto;
+}
+.flowrodblomstlink a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+.flowrodblomstlink p {
+	margin-top: 30%;
+	text-align: left;
+	font-size: 1.45em;
+}
+
+
 
 /*Copyright*/
 .copyright{
