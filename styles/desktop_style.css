@@ -197,9 +197,6 @@ textarea {
 	display: flex; 
 }
 
-.flowgulplacering h2 {
-	margin-top: 7%;
-}
 .flowgul {
 	height: 40px; 
 	width: 40px; 
@@ -207,6 +204,13 @@ textarea {
 	border-radius: 50%;
 	display: inline-block;
 	margin: 5% 2.5% 5% 5%;
+}
+
+.flowlink{
+	text-decoration: none;
+	color: black;
+	display: flex;
+	margin-top: 7%;
 }
 
 /*.flowblomster img {
