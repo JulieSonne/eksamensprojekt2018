@@ -320,7 +320,7 @@ textarea {
 			display: block;
             position: absolute;
         }
-        nav li {
+        nav h2 {
             text-align: left;
             width: 100%;
             padding: 5% 5%;
@@ -329,12 +329,9 @@ textarea {
 			font-size: 1.5em;
         }
 	
-	li a {
+	h2 a {
 		text-decoration: none;
 		color: white;
-	}
-	ul {
-		list-style-type: none;
 	}
 
         .navi {
