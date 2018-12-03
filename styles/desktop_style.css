@@ -382,8 +382,13 @@ textarea {
     	height: 5px;
     	background-color: white;
     	margin: 6px 0;
+		position: absolute;
 		}
-	
+	label img {
+		width: 10%;
+		height: auto;
+		margin-right: 80%;
+	}
 	
 	/*overskrift*/
 	.overskrift { 
