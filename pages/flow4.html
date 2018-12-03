@@ -2,45 +2,102 @@
 <html lang="da">
 <head>
 <meta charset="UTF-8">
-<meta name="Description" content="Portfolio">	
+<meta name="Description" content="Portfolio">
 <meta name="author" content="Julie Agertoft Sonne">
 <title>Flow 4</title>
-	<!--Grid layout-->
-	<link rel="stylesheet" href="../styles/gridsetup.css">
-	<!--Desktop stylesheet-->
-	<link rel="stylesheet" href="../styles/desktop_style.css">
+<!--Grid layout-->
+<link rel="stylesheet" href="../styles/gridsetup.css">
+<!--Desktop stylesheet-->
+<link rel="stylesheet" href="../styles/desktop_style.css">
 </head>
 
 <body>
-		<div class="container">
-			<div class="large-1-1 medium-1-1 small-1-1">
-				<div class="navigation large-1-1 medium-1-1 small-1-1">
-					<div class="navigationelementer large-1-4 medium-1-4 small-1-4"><a href="../index.html">Hjem</a></div>
-					<div class="navigationelementer large-1-4 medium-1-4 small-1-4"><a href="projekter.html">Projekter</a></div>
-					<div class="navigationelementer large-1-4 medium-1-4 small-1-4"><a href="omkring.html">Omkring</a></div>
-					<div class="navigationelementer large-1-4 medium-1-4 small-1-4"><a href="#">Kontakt</a></div>
-				</div>
-			</div>
-			<div class="header large-1-1 medium-1-1 small-1-1">
-				<table class="placering-overskrift">
-					<tbody>
-						<tr>
-							<th class="overskrift">F</th>
-							<th class="overskrift">L</th>
-							<th class="overskrift">O</th>
-							<th class="overskrift">W</th>
-							<th class="overskrift">4</th>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="large-1-1 medium-1-1 small-1-1 placering-gul">
-				<span class="gul"></span>
-				</div>
-
-			<footer>
-			<div class="large-1-1 medium-1-1 small-1-1 copyright">
-		    <p class="copyrightstyling">&copy;Copyright</p></div></footer>		
+<div class="container">
+  <div class="large-1-1 medium-1-1 small-1-1">
+    <div class="navigation large-1-1 medium-1-1 hide-on-small">
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="../index.html">Hjem</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="projekter.html">Projekter</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="omkring.html">Omkring</a></div>
+      <div class="navigationelementer large-1-4 medium-1-4"><a href="kontakt.html">Kontakt</a></div>
+    </div>
+  </div>
+	<!--menu på small-->
+	<!--https://www.competa.com/blog/responsive-menu-with-only-css3-no-javascript/ fra d. 3-->
+	<div class="menusmall small-1-1">
+	 <nav class="navi small-1-1"> 
+		
+            <input type="checkbox" id="toggle" checked>   
+                <label for="toggle" class="button"><img src="../images/burgermenu_redigeret.png" width="1310" height="1335" alt=""/></label> 
+                   <section class="menu">
+                         <ul>
+                            <li><a href="../index.html" class="active smallmenua">Hjem</a></li>
+                            <li><a href="projekter.html" class="smallmenua">Projekter</a></li>
+                            <li><a href="omkring.html" class="smallmenua">Omkring</a></li>
+                            <li><a href="kontakt.html" class="smallmenua">Kontakt</a></li>
+                        </ul>
+				 </section>
+        	</nav>
+		</div>
+	
+	
+  <div class="header large-1-1 medium-1-1 small-1-1">
+    <table class="placering-overskrift">
+      <tbody>
+        <tr>
+          <th class="overskrift">F</th>
+          <th class="overskrift">L</th>
+          <th class="overskrift">O</th>
+          <th class="overskrift">W</th>
+          <th class="overskrift">4</th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="large-1-1 medium-1-1 small-1-1 placering-gul"> <span class="gul"></span> </div>
+	
+	<!--Billeder-->
+	<div class="large-1-1 medium-1-1 small-1-1">
+    <div class="push-1-7 flowform">
+      <div class="flowkasse">
+   		  <div class="large-1-2 medium-1-2 small-1-1 flowbillede">
+	      <img src="../images/boligsogningsapp_redigeret.jpg" width="3508" height="3508" alt="prøve"/>
+		  </div>
+		   <div class="large-1-2 medium-1-2 hide-on-small flowbillede">
+	      <img src="../images/boligsogningsapp_redigeret.jpg" width="3508" height="3508" alt="prøve"/>
+		  </div>
+		  
+		  <!--Tekst-->
+		  <div class="large-1-2 medium-1-1 small-1-1 flowtekst">
+		  <h1>Overskrift</h1><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum, dicta similique ipsum possimus necessitatibus voluptatum. 
+			</p>
+		  </div>
+		  <div class="large-1-2 medium-1-1 small-1-1 flowtekst">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum.Debitis tempora pariatur officia quam omnis ex. possimus necessitatibus voluptatum harum.Debitis tempora.possimus necessitatibus voluptatum harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum.Debitis tempora pariatur officia quam omnis ex. possimus necessitatibus voluptatum harum.Debitis tempora.possimus necessitatibus voluptatum harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis tempora pariatur officia quam omnis ex provident tempore recusandae unde aspernatur accusamus distinctio mollitia, dicta similique ipsum possimus necessitatibus voluptatum harum.Debitis tempora pariatur officia quam omnis ex. possimus necessitatibus voluptatum harum.Debitis tempora.possimus necessitatibus voluptatum harum.</p>
+		  </div>
+		 <div class="large-1-1 medium-1-1 small-1-1 flowrodblomstplacering">
+			 <div><div class="large-1-5 medium-1-1 small-1-1 flowrodblomst"><img src="../images/blomstaleneflow.png" width="1310" height="1335" alt="Rød blomst"/></div>
+			<div class="large-1-4 medium-1-1 small-1-1 flowrodblomstlink"><p><a href="kontakt.html">Opgavebeskrivelse</a></p></div></div>
+			  <div><div class="large-1-5 medium-1-1 small-1-1 flowrodblomst"><img src="../images/blomstaleneflow.png" width="1310" height="1335" alt="Rød blomst"/></div>
+			<div class="large-1-4 medium-1-1 small-1-1 flowrodblomstlink"><p><a href="kontakt.html">Rapport</a></p></div></div>
+		 </div> 
+		 <div class="large-1-1 medium-1-1 small-1-1 flowrodblomstplacering">
+			 <div><div class="large-1-5 medium-1-1 small-1-1 flowrodblomst"><img src="../images/blomstaleneflow.png" width="1310" height="1335" alt="Rød blomst"/></div>
+			<div class="large-1-4 medium-1-1 small-1-1 flowrodblomstlink"><p><a href="kontakt.html">Originale løsning</a></p></div></div>
+			  <div><div class="large-1-5 medium-1-1 small-1-1 flowrodblomst"><img src="../images/blomstaleneflow.png" width="1310" height="1335" alt="Rød blomst"/></div>
+			<div class="large-1-4 medium-1-1 small-1-1 flowrodblomstlink"><p><a href="kontakt.html">Forbedret løsning</a></p></div></div>
+		 </div> 
+		  
+		  
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="large-1-1 medium-1-1 small-1-1 copyright">
+      <p class="copyrightstyling">&copy;Copyright</p>
+    </div>
+  </footer>
 </div>
 </body>
-</html>	
+</html>
