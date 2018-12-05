@@ -166,10 +166,22 @@ textarea {
     text-align: left;
     margin: 5% 0;
     margin-bottom: 5%;
+	line-height: 2;
 }
 .flowtekst p {
     width: 90%;
 }
+
+.flowtekst2 {
+    text-align: left;
+    margin: 17% 0;
+    margin-bottom: 5%;
+	line-height: 2;
+}
+.flowtekst2 p {
+    width: 90%;
+}
+
 .flowgulplacering {
     text-align: left;
     display: flex;
