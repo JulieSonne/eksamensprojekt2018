@@ -8,6 +8,7 @@ Body {
     background-color: #afcef8;
     font-family: "helvetice", "arial", sans-serif;
 }
+
 /*styling af menu*/
 .navigation {
     border-bottom: 5px dashed red;
@@ -25,6 +26,13 @@ Body {
 .menusmall {
     display: none;
 }
+
+/*Tilbage*/
+.tilbage{
+	margin: 3% 3% 0 3%;
+	position: relative;
+}
+
 /*Overskrift*/
 .placering-overskrift {
     margin-left: auto;
@@ -152,6 +160,7 @@ textarea {
     width: 70%;
     margin-top: 3%;
     text-align: center;
+	margin-bottom: 10%;
 }
 .flowkasse {
     display: inline-block;
@@ -214,6 +223,11 @@ textarea {
 
 .flowskub {
 	margin-bottom: 20%;
+}
+
+.flowlisteskub {
+	margin-left: 10%;
+	width: 80%;
 }
 /*.flowblomster img {
     width: 50%;
