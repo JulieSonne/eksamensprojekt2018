@@ -166,8 +166,6 @@ textarea {
 .flowbilledetekst{
 	color: white;
 	line-height: 2; 
-
-
 }
 .flowtekst {
     text-align: left;
@@ -212,10 +210,10 @@ textarea {
 	text-decoration: none;
 	color: #ffe912;
 	font-weight: 700;
-	/*border-radius: 10%;
-	padding: 3%;
-	background-color: white;
-	border: 1px solid #666;*/
+}
+
+.flowskub {
+	margin-bottom: 20%;
 }
 /*.flowblomster img {
     width: 50%;
