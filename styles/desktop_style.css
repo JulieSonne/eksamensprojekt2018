@@ -160,7 +160,14 @@ textarea {
 .flowbillede img {
     width: 80%;
     height: auto;
-    margin: 15% 0;
+    margin: 15% 0 3% 0;
+}
+
+.flowbilledetekst{
+	color: white;
+	line-height: 2; 
+
+
 }
 .flowtekst {
     text-align: left;
@@ -200,13 +207,23 @@ textarea {
     display: flex;
     margin-top: 7%;
 }
-.flowblomster img {
+
+.flowreferencelink {
+	text-decoration: none;
+	color: #ffe912;
+	font-weight: 700;
+	/*border-radius: 10%;
+	padding: 3%;
+	background-color: white;
+	border: 1px solid #666;*/
+}
+/*.flowblomster img {
     width: 50%;
     height: auto;
     margin: 5%;
-}
+}*/
 /*Den røde blomst alene*/
-.flowrodblomstplacering {
+/*.flowrodblomstplacering {
     align-content: left;
     display: inline-block;
     width: 100%;
@@ -225,7 +242,7 @@ textarea {
     margin-top: 30%;
     text-align: left;
     font-size: 1.45em;
-}
+}*/
 /*Copyright*/
 .copyright {
     margin-top: 25%;
