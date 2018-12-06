@@ -39,9 +39,17 @@ Body {
 .placering-overskrift {
     margin-left: auto;
     margin-right: auto;
+	margin-top: 10%;
     border-collapse: separate;
     border-spacing: 15px;
 }
+.placering-overskrift-flow {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
 .overskrift {
     border: 1px solid #666;
     background-color: white;
