@@ -28,16 +28,17 @@ Body {
 }
 
 /*Tilbage*/
-.tilbage{
-	margin: 3% 3% 0 3%;
+.tilbage img{
+	margin: 20% 20% 0 37%;
 	position: relative;
+	width: 20%;
+	height: auto;
 }
 
 /*Overskrift*/
 .placering-overskrift {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
     border-collapse: separate;
     border-spacing: 15px;
 }
