@@ -198,7 +198,7 @@ textarea {
 
 .flowtekst2 {
     text-align: left;
-    margin: 17% 0;
+   margin: 17% 0;
     margin-bottom: 5%;
 	line-height: 2;
 }
@@ -239,6 +239,16 @@ textarea {
 	margin-left: 10%;
 	width: 80%;
 }
+
+ul {
+	list-style-type: none;
+}
+.procesbillede img{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+}
+
 /*Copyright*/
 .copyright {
     margin-top: 25%;
@@ -290,10 +300,15 @@ h2 {
     display: inline-block;
     margin: 5% 2.5% 5% 5%;
 }
+	
+.flowtekst2 {
+   margin: 0% 0 5% 0;
+}	
 /*copyright*/
 .copyright {
     margin-top: 55%;
 }
+
 }
 
 /*Styling af small*/
