@@ -257,9 +257,9 @@ ul {
 .copyrightstyling {
     color: white;
 }
-.menusmall {
+/*.menusmall {
     display: none;
-}
+}*/
 
 /*Styling af medium*/
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
@@ -357,7 +357,7 @@ h2 a {
     display: block;
     cursor: pointer;
     z-index: 10;
-    background: url(menu.png) center right no-repeat #afcef8;
+    background: url(menu.png) center no-repeat #afcef8;
     position: absolute;
     right: 0;
     top: auto;
