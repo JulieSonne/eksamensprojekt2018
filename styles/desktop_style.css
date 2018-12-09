@@ -364,7 +364,7 @@ h2 a {
 }
 /*Transition effect*/
 .navi .menu {
-    width: 100%;
+    width: 110%;
     margin: 20% 0 10% 0;
     right: 0px;
     background: #afcef8;
@@ -501,6 +501,12 @@ h2 {
 	margin-bottom: 10%;
 	margin-left: 6.5%;
 	}
+	.flowtekst p {
+    width: 100%;
+}
+		.flowtekst2 p {
+    width: 100%;
+}
 	/*regulering af h1*/
 	.flowoverskrift {
 		font-size: 1.55em;
