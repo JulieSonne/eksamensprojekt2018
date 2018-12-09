@@ -43,11 +43,13 @@ Body {
     border-collapse: separate;
     border-spacing: 15px;
 }
+
 .placering-overskrift-flow {
     margin-left: auto;
     margin-right: auto;
     border-collapse: separate;
     border-spacing: 15px;
+	margin-top:10%;
 }
 
 .overskrift {
@@ -124,6 +126,10 @@ Body {
     padding: 3%;
 }
 
+.omkringbrodtekst {
+	line-height: 2;
+}
+
 /*kontakt*/
 .kontaktform {
     border: 5px dashed white;
@@ -193,7 +199,6 @@ textarea {
 .flowtekst {
     text-align: left;
     margin: 5% 0;
-    margin-bottom: 5%;
 	line-height: 2;
 }
 .flowtekst p {
@@ -202,7 +207,7 @@ textarea {
 
 .flowtekst2 {
     text-align: left;
-   margin: 17% 0;
+   margin: 5% 0;
     margin-bottom: 5%;
 	line-height: 2;
 }
@@ -269,19 +274,24 @@ ul {
 @media handheld, only screen and (max-width: 768px) and (min-width: 414px) {
 /*(max-width:864px)*/
 	
-	/*navigation*/
+/*navigation*/
 .navigation a {
     font-size: 1.25em;
 }
+	
+.navigation {
+	margin-left: 0.5%;	
+	}
 /*projekter*/
 .projektkasse {
     display: inline-block;
     float: left;
     width: 100%;
+	margin-left: 0.5%;
 }
 	
 .projektoverskrift, .projektbrodtekst {
-		margin-left: 5%;
+	margin-left: 5%;
 	width: 100%;
 }	
 	
@@ -291,7 +301,11 @@ ul {
     display: inline-block;
     float: left;
     width: 100%;
+	margin-left: 0.5%;
 }
+	.omkringoverskrift, .omkringbrodtekst {
+		margin-left: 5%;
+	}
 /*flow*/
 h2 {
     font-size: 1.25em;
@@ -391,7 +405,7 @@ label img {
 }
 .placering-overskrift {
     border-spacing: 8px;
-    margin-top: 40%;
+    margin-top: 35%;
 }
 /*Den gule prik*/
 .gul {
@@ -408,11 +422,13 @@ label img {
 }
 
 /*projeketer*/
-.projektkasse {
-    display: inline-block;
-    float: left;
-    width: 100%;
-}
+	.projektkasse {
+		display: inline-block; 
+		float: left; 
+		width: 100%;
+		margin-bottom: 10%;
+		margin-left: 1.25%;
+	}
 .projektbillede img {
     width: 75%;
     height: auto;
@@ -430,7 +446,12 @@ label img {
     float: left;
     width: 100%;
 	margin-bottom: 10%;
+	margin-left: 1.25%;
 }
+	
+	.omkringkasse {
+		margin-left: 1.25%;
+	}
 .omkringbillede img {
     width: 75%;
     height: auto;
