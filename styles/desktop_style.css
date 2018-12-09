@@ -11,7 +11,7 @@ Body {
 
 /*styling af menu*/
 .navigation {
-    border-bottom: 5px dashed red;
+    border-bottom: 7px dashed red;
 }
 .navigation a {
     text-decoration: none;
@@ -30,7 +30,7 @@ Body {
 /*Tilbage*/
 .tilbage img{
 	margin: 20% 20% 0 37%;
-	position: relative;
+	position: flex;
 	width: 20%;
 	height: auto;
 }
@@ -49,7 +49,6 @@ Body {
     margin-right: auto;
     border-collapse: separate;
     border-spacing: 15px;
-	margin-top:10%;
 }
 
 .overskrift {
@@ -132,7 +131,7 @@ Body {
 
 /*kontakt*/
 .kontaktform {
-    border: 5px dashed white;
+    border: 7px dashed white;
     width: 50%;
     margin-top: 5%;
 	margin-left: 25%; 
@@ -176,8 +175,8 @@ textarea {
 
 /*Portfolio + flow*/
 .flowform {
-    border: 5px dashed white;
-    width: 70%;
+    border: 7px dashed white;
+    width: 73%;
     margin-top: 3%;
    text-align: center;
 	margin-bottom: 10%;
@@ -219,6 +218,7 @@ textarea {
     text-align: left;
     display: flex;
 }
+
 .flowgul {
     height: 40px;
     width: 40px;
@@ -340,6 +340,10 @@ h2 {
     display: block;
     position: absolute;
 }
+	
+	.smallskub {
+		padding-top: 4%;
+	}	
 nav h2 {
     text-align: left;
     width: 100%;
@@ -396,6 +400,7 @@ label img {
 .navigation {
     display: none;
 }
+
 /*overskrift*/
 .overskrift {
     height: 27px;
@@ -405,7 +410,7 @@ label img {
 }
 .placering-overskrift {
     border-spacing: 8px;
-    margin-top: 35%;
+    margin-top: 36%;
 }
 /*Den gule prik*/
 .gul {
@@ -422,12 +427,12 @@ label img {
 }
 
 /*projeketer*/
-	.projektkasse {
-		display: inline-block; 
-		float: left; 
-		width: 100%;
-		margin-bottom: 10%;
-		margin-left: 1.25%;
+.projektkasse {
+	display: inline-block; 
+	float: left; 
+	width: 90%;
+	margin-bottom: 10%;
+	margin-left: 6.5%;
 	}
 .projektbillede img {
     width: 75%;
@@ -436,36 +441,36 @@ label img {
     margin-top: 10%;
 }
 .projektoverskrift {
-    margin-top: 5%;
-    font-size: 1.55em;
-    text-align: center;
+    margin-top: 2.5%;
+    font-size: 1.25em;
+    margin-left: 15%;
+	padding-right: 5%;
 }
 /*omkring*/
 .omkringkasse {
     display: inline-block;
     float: left;
-    width: 100%;
+    width: 90%;
 	margin-bottom: 10%;
-	margin-left: 1.25%;
+	margin-left: 6.5%;
 }
-	
-	.omkringkasse {
-		margin-left: 1.25%;
-	}
+
 .omkringbillede img {
     width: 75%;
     height: auto;
-    margin: 10% 0 10% 10%;
+  margin-left: 10%;
+    margin-top: 10%;
 }
 .omkringoverskrift {
-    margin-top: 5%;
-    font-size: 1.55em;
+    margin-top: 2.5%;
+    font-size: 1.25em;
 	text-align: center;
 }
 .omkringbrodtekst {
     text-align: left;
     max-width: 80%;
 	margin: 0 0 10% 10%;
+	padding-bottom: 5%;
 }
 	
 /*Kontakt*/
@@ -489,4 +494,20 @@ h2 {
     display: inline-block;
     margin: 5% 2.5% 5% 5%;
 }
+.flowform {
+	display: inline-block;
+    float: left;
+    width: 90%;
+	margin-bottom: 10%;
+	margin-left: 6.5%;
+	}
+	/*regulering af h1*/
+	.flowoverskrift {
+		font-size: 1.55em;
+	}
+	/*regulering af overskrift i kasse*/
+	.placering-overskrift-flow {
+		border-spacing: 8px;
+        margin-top: 36%;
+	}
 }
