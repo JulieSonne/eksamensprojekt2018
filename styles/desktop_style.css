@@ -199,23 +199,26 @@ textarea {
     text-align: left;
     margin: 5% 0;
 	line-height: 2;
+	padding: 0 0 0 5%;
 }
 .flowtekst p {
-    width: 90%;
+    width: 100%;
 }
 
 .flowtekst2 {
     text-align: left;
    margin: 7% 0;
 	line-height: 2;
+	padding: 0 0 0 5%;
 }
 .flowtekst2 p {
-    width: 90%;
+    width: 100%;
 }
 
 .flowgulplacering {
     text-align: left;
     display: flex;
+	padding: 0 0 0 5%;
 }
 
 .flowgul {
