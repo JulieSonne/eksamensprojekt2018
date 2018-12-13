@@ -245,25 +245,13 @@ padding: 0 0 0 5%
 }
 
 .flowskub {
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 
-/*.flowlisteskub {
-	margin-left: 10%;
-	width: 80%;
-}
-*/
-/*ul {
-	list-style-type: none;
-}*/
 .procesbillede img{
 	width: 90%;
 	height: auto;
 }
-
-/*.menusmall {
-    display: none;
-}*/
 
 /*Styling af medium*/
 @media handheld, only screen and (max-width: 864px) and (min-width: 414px) {
