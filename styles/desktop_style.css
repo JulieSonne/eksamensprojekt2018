@@ -105,6 +105,7 @@ Body {
 .projektbrodtekst {
     line-height: 2;
 	width: 70%;
+	padding-left: 2%;
 }
 /*Siden omkring*/
 .omkringbillede img {
@@ -224,6 +225,7 @@ padding: 0 0 0 5%
 }
  h3{
 	padding-left: 2%;
+
 }
 
 .flowgulplacering {
