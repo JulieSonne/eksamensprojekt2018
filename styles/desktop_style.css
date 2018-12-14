@@ -106,6 +106,11 @@ Body {
     line-height: 2;
 	width: 70%;
 }
+.projektoverskriftlink{
+	text-decoration: none;
+	color: black;
+}
+
 /*Siden omkring*/
 .omkringbillede img {
     width: 100%;
