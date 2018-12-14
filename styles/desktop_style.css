@@ -119,15 +119,17 @@ Body {
     width: 75%;
     margin-top: 5%;
 }
-.omkringoverskrift {
+/*.omkringoverskrift {
     margin-top: 10%;
 }
 .omkringoverskrift .omkringbrodtekst {
     padding: 3%;
-}
+}*/
 
 .omkringbrodtekst {
 	line-height: 2;
+	padding: 3%;
+	margin-top: 15%;
 }
 
 /*Siden kontakt*/
