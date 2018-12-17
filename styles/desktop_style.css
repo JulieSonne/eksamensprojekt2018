@@ -98,6 +98,8 @@ Body {
 }
 .projektoverskrift {
     margin-top: 10%;
+	text-decoration: none; 
+	color: black;
 }
 .projektoverskrift .projektbrodtekst {
     padding: 3%;
@@ -124,12 +126,6 @@ Body {
     width: 75%;
     margin-top: 5%;
 }
-/*.omkringoverskrift {
-    margin-top: 10%;
-}
-.omkringoverskrift .omkringbrodtekst {
-    padding: 3%;
-}*/
 
 .omkringbrodtekst {
 	line-height: 2;
@@ -210,16 +206,6 @@ textarea {
 	padding: 0 0 0 5%;
 }
 .flowtekst p {
-    width: 90%;
-}
-
-.flowtekst2 {
- text-align: left;
- margin: 7% 0;
-line-height: 2;
-padding: 0 0 0 5%
-}
-.flowtekst2 p {
     width: 90%;
 }
 
@@ -308,10 +294,7 @@ h3 /*h2*/{
     display: inline-block;
     margin: 5% 2.5% 5% 5%;
 }
-	
-.flowtekst2 {
-   margin: 0% 0 5% 0;
-} 
+	 
 }
 
 /*Styling af small*/
@@ -487,9 +470,6 @@ h2 {
 	margin-left: 6.5%;
 	}
 	.flowtekst p {
-    width: 100%;
-}
-		.flowtekst2 p {
     width: 100%;
 }
 	/*regulering af h1*/
