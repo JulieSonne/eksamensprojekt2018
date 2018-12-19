@@ -248,9 +248,7 @@ textarea {
 
 /*Styling af medium*/
 @media handheld, only screen and (max-width: 864px) and (min-width: 414px) {
-/*(max-width:768)*/
-/*(max-width:864px)*/
-
+	 
 /*Navigation*/
 .navigation a {
     font-size: 1.25em;
@@ -283,7 +281,7 @@ textarea {
 		margin-left: 5%;
 	}
 /*Siden flow*/
-h3 /*h2*/{
+h3 {
     font-size: 1.25em;
 }
 .flowgul {
